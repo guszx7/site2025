@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  header {
+    background-color: #000000;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+  font-size: 2rem;             
+  font-weight: bold;           
+  font-family: 'Arial', sans-serif; 
+  color: #ffffff;                 
+}
+
+.logo a {
+  text-decoration: none;      
+  color: inherit;                                   
+}
+  
+  nav ul.menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav ul.menu li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .hero {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn {
+    background-color: gray;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  .destaques {
+    padding: 2rem 1rem;
+    background-color: white;
+  }
+  
+  .destaques h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 1.5rem;
+  }
+  
+  .produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .produto {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 6px;
+    width: 220px;
+    text-align: center;
+  }
+  
+  .produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .produto h3 {
+    color: #000000;
+    margin: 0.8rem 0 0.5rem;
+  }
+
+  footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    nav ul.menu {
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+  
+    .produtos {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  
